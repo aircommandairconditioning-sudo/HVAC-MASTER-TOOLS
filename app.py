@@ -80,7 +80,6 @@ elif tool == "Superheat Calculator":
         superheat = suction_temp - saturation_temp
         st.success(f"Superheat: {superheat:.1f} °C")
 
-        st.success(f"Subcooling: {subcooling:.1f} °C")
 
     
 elif tool == "Subcooling Calculator":
